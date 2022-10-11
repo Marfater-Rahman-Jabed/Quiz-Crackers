@@ -12,7 +12,8 @@ const NavBar = () => {
                     <h1>JOB'S TEST</h1>
                 </div>
                 <div>
-                    <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to='/topic'>Topic</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to='/home'>Home</NavLink>
+                    <NavLink to='/topic'>Topic</NavLink>
                     <NavLink to='/statistics'>Statistics</NavLink>
                     <NavLink to='/blog'>Blog</NavLink>
                 </div>
