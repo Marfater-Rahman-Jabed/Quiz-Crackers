@@ -18,3 +18,16 @@
 .color {
     color: darkslateblue;
 }
+
+.grridd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* background-color: lightgray; */
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.grridd img {
+    width: 100%;
+    height: 200px;
+}
