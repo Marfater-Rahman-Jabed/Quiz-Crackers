@@ -7,7 +7,10 @@ const NavBar = () => {
     return (
         <div className='bgcolor'>
             <div className='navbar'>
-                <h1>JOB'S TEST</h1>
+                <div className='flexy'>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn6QRBkRxK3nPORDl8xcgwUGmJsxuP6kJq5Q&usqp=CAU" alt="" />
+                    <h1>JOB'S TEST</h1>
+                </div>
                 <div>
                     <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to='/topic'>Topic</NavLink>
                     <NavLink to='/statistics'>Statistics</NavLink>
