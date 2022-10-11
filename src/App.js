@@ -2,6 +2,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blog from './component/Blog/Blog';
+import Home from './component/Home/Home';
 import NavBar from './component/NavBar/NavBar';
 import Statistics from './component/Statistics/Statistics';
 import Topic from './component/Topic/Topic';
@@ -13,7 +14,10 @@ function App() {
       path: '/',
       element: <Main></Main>,
       children: [
-
+        {
+          path: '/',
+          element: <Home></Home>
+        },
         {
           path: '/topic',
           element: <Topic></Topic>
