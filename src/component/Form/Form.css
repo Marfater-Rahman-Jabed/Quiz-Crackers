@@ -8,12 +8,29 @@
 .inside {
     border: 2px solid gray;
     background-color: gray;
-
+    color: white;
+    font-weight: 700;
     padding: 10px;
+}
+
+.form p:hover {
+    background-color: blue;
 }
 
 .bgcolor {
     background-color: paleturquoise;
     margin: 20px;
     padding: 10px;
+}
+
+.heght {
+    height: 30px;
+    width: 30px;
+}
+
+.flexx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
 }
