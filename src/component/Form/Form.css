@@ -1,0 +1,19 @@
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    margin: 20px;
+}
+
+.inside {
+    border: 2px solid gray;
+    background-color: gray;
+
+    padding: 10px;
+}
+
+.bgcolor {
+    background-color: paleturquoise;
+    margin: 20px;
+    padding: 10px;
+}
